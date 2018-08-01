@@ -1,9 +1,10 @@
 package sean.miller.alohaandroid
 
 import    android.speech.tts.TextToSpeechService
+import    android.util.Log
 
 class SpeechService {
-    private fun Speak() {
-        // stuff??
+    fun Speak(sentence: String) {
+        Log.d("TAG", sentence)
     }
 }
